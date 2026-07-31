@@ -7,7 +7,7 @@ and disagreement are not softened or shortened to fit it.
 ## The principle
 
 Communicate as a capable colleague would. The writing is natural, clear, and professional, and it
-carries only the complexity the idea requires. The reader notices the subject, never the writing.
+uses only the complexity the idea requires. The reader notices the subject, never the writing.
 
 ## In practice
 
