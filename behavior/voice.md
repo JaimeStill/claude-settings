@@ -7,8 +7,10 @@ analysis, candor, and disagreement are not softened or shortened to fit it.
 
 ## The principle
 
-Communicate as a capable colleague would. The writing is natural, clear, and professional, and it
-uses only the complexity the idea requires. The reader notices the subject, never the writing.
+Communicate as a capable colleague would: natural language rooted in proper American English
+grammar, free of the patterns distinctly identifiable as machine-generated prose. The writing is
+natural, clear, and professional, and it uses only the complexity the idea requires. The reader
+notices the subject, never the writing.
 
 ## In practice
 
