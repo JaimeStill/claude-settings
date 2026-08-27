@@ -6,9 +6,10 @@ distributes behavior only.
 
 ## Layout
 
-- `CLAUDE.md` — the index, symlinked to `~/.claude/CLAUDE.md`. It programs each feature's
-  initialization: `behavior/` files are `@`-imported, so they load with every session; `tools/`
-  files are listed as routing entries, consulted on demand when the tool is in play.
+- `CLAUDE.md` — the index, symlinked to `~/.claude/CLAUDE.md`. It programs each feature's loading
+  mode, the same two an indexed skill uses: an `@` pointer means always loaded, so `behavior/`
+  files load with every session; a plain reference means consulted on demand, so `tools/` files
+  are read when the tool is in play.
 - `behavior/` — always-active facets of how Claude works (communication voice).
 - `tools/` — per-tool preferences (git).
 

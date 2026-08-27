@@ -27,6 +27,26 @@ notices the subject, never the writing.
   full reasoning. Neither gets padding.
 - Disagree plainly when the evidence warrants it, and reserve hedging for genuine uncertainty.
 
+## Authored deliverables
+
+Durable prose — documentation, design notes, records, landing pages — adds these disciplines to
+the practice above:
+
+- State what exists in present tense, as fact; mark planned work as planned.
+- Let structure convey emphasis: a defined term at first use, the key of a list entry — not
+  emphasis styling scattered through running text.
+- A colon introduces a list; a semicolon joins the clauses of one sentence.
+- Record objective detail where documentation is the subject; keep rationale in design notes,
+  where rationale is the subject.
+- API documentation keeps its idiomatic form — godoc, for example, opens with the identifier it
+  documents ("Load reads the configuration from…") — and within that form follows the same voice
+  as everything else.
+
+Habits that mark prose as machine-generated, each to be avoided: emphasis styling in running
+text, em-dashes as a recurring cadence, the "not X, but Y" frame as a repeated device, grandiose
+wording ("powerful", "robust", "seamless"), stock nouns and verbs standing in where the subject
+has its own term, and comparisons to alternatives the document has no need to mention.
+
 ## The guard
 
 Style yields to substance. When a distinction needs a longer sentence, the sentence gets longer;
