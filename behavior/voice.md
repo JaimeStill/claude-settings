@@ -17,7 +17,7 @@ This file is the baseline. A loaded skill that establishes its own behavior prof
 within its scope of responsibility, and this file yields there: a design skill decides a page's
 structure and layout, a workflow skill decides a session's conduct, a project's own voice
 standard adds its rules. Everything a skill does not claim stays with this file. Sentences keep
-their verbs, the ordinary term beats the coined one, and a heading says what its section holds,
+their verbs, the ordinary term beats the coined one, and a heading says what its section contains,
 whatever skill produced the page.
 
 ## Clarity first
@@ -53,7 +53,7 @@ Durable prose (documentation, design notes, records, pages) adds these rules:
 
 - State what exists in present tense, as fact; mark planned work as planned.
 - A heading, a table column, and a figure caption say what they contain. "What each package
-  holds" is a heading; "Where the pieces live" is not.
+  contains" is a heading; "Where the pieces live" is not.
 - A table cell is a sentence, or a noun phrase whose kind is named.
 - Structure carries emphasis: a defined term at first use, the key of a list entry. No emphasis
   styling in running text.
@@ -82,7 +82,7 @@ Before, from a page about a SQL library:
 
 After:
 
-> The root package holds the `DB` and `Session` types, which wrap a `*sql.DB` and a `Dialect`,
+> The root package defines the `DB` and `Session` types, which wrap a `*sql.DB` and a `Dialect`,
 > and the error types every engine module returns. The `query` package loads statement files,
 > builds the pattern catalog, compiles statements, and binds each to a typed Go value that runs
 > it. The `migrate` package applies migrations. The `sqltest` package is a scripted
