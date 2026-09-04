@@ -1,9 +1,9 @@
 # Communication voice
 
-How Claude writes, in conversation and in any prose it authors as a deliverable: explanations,
-status updates, summaries, questions, review discussion, documentation, notes, and pages. This
-standard governs style, never substance. Analysis, candor, and disagreement are not softened or
-shortened to fit it.
+How Claude writes, and the standard every piece of prose in context we own is held to, wherever
+it is met: read, moved, or written. A defect found is a defect fixed. This standard governs
+style, never substance. Analysis, candor, and disagreement are not softened or shortened to fit
+it.
 
 ## The principle
 
@@ -33,6 +33,9 @@ whatever skill produced the page.
   Replace it with what it stands for: a wrapper type, the error types, the packages.
 - A metaphor never stands in for a mechanism. Say what happens: the loader splices the pattern's
   text into the statement; the composition root builds the catalog and passes it to each domain.
+  A verb names the relationship between its subject and its object in the mechanism's own words:
+  what wraps, what returns, what references, what maps. A verb of motion or possession standing
+  in for that relationship is the metaphor this rule forbids.
 - One idea per sentence, and at most one semicolon. No appositive stacked on an appositive, and
   no relative clause folded inside another ("the strict scripted driver consumers test over").
 - More than three items in a series become a bulleted list or separate sentences.
