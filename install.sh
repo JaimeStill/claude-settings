@@ -7,6 +7,7 @@ repo="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ln -sfn "$repo/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 ln -sfn "$repo/behavior" "$HOME/.claude/behavior"
 ln -sfn "$repo/tools" "$HOME/.claude/tools"
+ln -sfn "$repo/agents" "$HOME/.claude/agents"
 
 echo "claude-settings deployed:"
-ls -l "$HOME/.claude/CLAUDE.md" "$HOME/.claude/behavior" "$HOME/.claude/tools"
+ls -l "$HOME/.claude/CLAUDE.md" "$HOME/.claude/behavior" "$HOME/.claude/tools" "$HOME/.claude/agents"

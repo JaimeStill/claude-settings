@@ -5,6 +5,7 @@
 Always active, loaded with this file:
 
 @~/.claude/behavior/voice.md
+@~/.claude/behavior/model-routing.md
 
 ## Tools
 

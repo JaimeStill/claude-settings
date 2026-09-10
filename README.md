@@ -10,8 +10,10 @@ distributes behavior only.
   mode, the same two an indexed skill uses: an `@` pointer means always loaded, so `behavior/`
   files load with every session; a plain reference means consulted on demand, so `tools/` files
   are read when the tool is in play.
-- `behavior/` — always-active facets of how Claude works (communication voice).
+- `behavior/` — always-active facets of how Claude works (communication voice, model routing).
 - `tools/` — per-tool preferences (git).
+- `agents/` — custom subagent definitions (`fable`, the technical delegate `model-routing.md`
+  describes), symlinked whole into `~/.claude/agents` so Claude Code discovers them directly.
 
 ## Install
 
@@ -19,6 +21,6 @@ distributes behavior only.
 ./install.sh
 ```
 
-Creates the symlinks (`CLAUDE.md`, `behavior`, `tools`) in `~/.claude`. Idempotent; re-run after
-adding a directory. Cloning this repository and running the script is the whole setup on a new
-machine.
+Creates the symlinks (`CLAUDE.md`, `behavior`, `tools`, `agents`) in `~/.claude`. Idempotent;
+re-run after adding a directory. Cloning this repository and running the script is the whole
+setup on a new machine.
