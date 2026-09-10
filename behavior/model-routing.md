@@ -26,3 +26,14 @@ Documentation, code comments, commit messages, and context notes are always fini
 orchestrator's own voice, whether the delegate drafted a first pass or not. The delegate favors
 getting the work correct over writing it well; the orchestrator's job is making sure what ships
 reads clearly, regardless of which model built it.
+
+## Escalating past Fable
+
+For the rare planning-phase decision where the stakes are high enough that getting it right
+matters more than speed or cost — a decision with wide blast radius across the project or
+workspace, one that needs a large amount of context held at once to reason through — delegate to
+the `opus` agent (`agents/opus.md`) instead of `fable`. An authorization model chosen for every
+later layer to build against, or a cross-repo consistency audit, are the shape of decision that
+qualifies; the call to escalate is the orchestrator's own judgment during SETTLE. This is an
+exception path, not a standing third leg of the routing convention: most SETTLE and EXECUTE work
+still goes to `fable` or stays with the orchestrator.

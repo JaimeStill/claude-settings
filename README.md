@@ -12,8 +12,9 @@ distributes behavior only.
   are read when the tool is in play.
 - `behavior/` — always-active facets of how Claude works (communication voice, model routing).
 - `tools/` — per-tool preferences (git).
-- `agents/` — custom subagent definitions (`fable`, the technical delegate `model-routing.md`
-  describes), symlinked whole into `~/.claude/agents` so Claude Code discovers them directly.
+- `agents/` — custom subagent definitions `model-routing.md` describes: `fable`, the technical
+  delegate, and `opus`, the rare high-stakes planning escalation. Symlinked whole into
+  `~/.claude/agents` so Claude Code discovers them directly.
 
 ## Install
 
