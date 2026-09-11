@@ -12,6 +12,10 @@ it: a design decision during planning, an implementation stage during a build, a
 Delegate at the grain of one coherent unit of work — one decision, one stage, one bug — not an
 entire session and not a sub-step within a unit.
 
+Before starting a unit of work, state the delegate-or-not call and the reason, out loud in the
+turn. Defaulting to doing it yourself without ever stating that call is the failure this
+convention exists to prevent.
+
 ## Staying current
 
 Brief the delegate with full context before it starts. When it reports back, read what it
